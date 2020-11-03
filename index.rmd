@@ -1,28 +1,22 @@
 ---
-title: "P8105 Homework 4"
+title: "P8105: Homework 4"
 ---
 
-# Welcome!
-
-Instructions for HW4 are below. 
+# Welcome to my website for HW4!
 
 ### Problem 1
 
-Create a personal website at <YOUR_GH_NAME>.github.io (or some other reasonably-named location). This page can be as extensive as you’d like, but it should include at least:
+Creatde a personal website that includes:
 
 * A brief introductory landing page
-* A page giving your academic and professional experience (i.e. a resume)
-* Links in the site navigation for your GitHub account, your email, and any other professional networks.
+* My Resume
+* Links to your GitHub account, your email, and other professional networks.
 
 
 ### Problem 2
 
-Create a flexdashboard using plotly for that includes at least three distinct plot types (e.g. scatterplots, line plots, bar plots, box plots, etc.). Use one of the following datasets, and load from the p8105.datasets package:
+Created a flexdashboard using plotly for that includes three distinct plot types (e.g. scatterplots, bar plots, box plots) using NYC Restaurant Inspections dataset
 
-*Instacart
-*NY NOAA
-*NYC Restaurant Inspections
-These datasets are large; you may want / need to filter or randomly sample from the complete dataset to ensure a reasonable product.
 
 
 

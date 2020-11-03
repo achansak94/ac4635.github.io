@@ -11,6 +11,8 @@ navbar:
       href: Rest_Dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<ac4635.cumc.columbia.edu>
+    - text: "Linkedin"
+      href: https://www.linkedin.com/in/aisara-chansakul-400398109/
     - icon: fa-github fa-lg
       href: http://github.com/ac4635/
 output:
