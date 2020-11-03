@@ -24,7 +24,7 @@ Create a flexdashboard using plotly for that includes at least three distinct pl
 *NYC Restaurant Inspections
 These datasets are large; you may want / need to filter or randomly sample from the complete dataset to ensure a reasonable product.
 
-[about me](about.html)
+
 
 
 
