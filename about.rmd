@@ -1,0 +1,106 @@
+---
+title: "Resume"
+output:
+    html_document:
+        toc: true
+        toc_float: true
+        theme: cerulean
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### EDUCATION
+
+[Columbia University MSPH](https://www.publichealth.columbia.edu/)                       						  
+New York, NY
+MPH Epidemiology, Certificate in CEOR    Expected April/May 2021           
+
+
+[Bowdoin College](https://www.bowdoin.edu/)                         						  
+Brunswick, ME 			       
+Bachelor of Arts; Major in Biochemistry, Minor in Sociology   May 2016
+  
+  
+### RESEARCH EXPERIENCE  
+
+[ICAP at Columbia University](https://icap.columbia.edu/)                       						  
+New York, NY   
+Graduate Research Intern (May 2020 - Present)
+
+- Abstract selected for poster presentation at the 2021 HIVR4P Conference 
+- Utilized SAS to analyze publicly available datasets related to the outreach of HIV programs in PEPFAR-supported countries
+- Conducted literature reviews of behavioral risk factors among men in Zambia and Eswatini
+- Presented findings bi-weekly to research mentor and collaborators on progress of project status
+
+
+[Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/?pn_mapping=pn_11&gclid=Cj0KCQjwufn8BRCwARIsAKzP696nZcT-92b6FExhmZTIpoxVCZEeF9reoOBUWv8X4NhIdRtJ16JLR2AaArXBEALw_wcB)      
+New York, NY
+
+Research Regulatory Associate (October 2018 - August 2019)	
+
+- Reviewed and submitted ongoing regulatory documentation including but not limited to: protocol amendments, deviations, serious adverse events, and continuing review reports to all necessary parties for 25 Multiple Myeloma clinical trials
+- Communicate with staff at all levels (principal investigators, clinical and research support staff) and work directly with Clinical Research Manager (CRM) and managerial staff in protocol development and reviewing protocol logistics
+- Developed protocol tools including eligibility checklists, Clinical Trials Management System (CTMS) calendar builds, protocol order sets, electronic Adult Treatment orders (eATO) builds, etc
+
+Research Study Assistant/Clinical Research Coordinator (December 2016 - October 2018)
+
+- Facilitator for a multidisciplinary team encompassing data entry, patient management (in Tableau and CTMS), regulatory oversight and liaison for study participants, the medical team, and sponsor pharmaceutical companies for 7 Multiple Myeloma clinical trials including a 100-patient Phase II study
+- Handled projects including developing the microbiota database collection, piloting workflows for departmental needs and coordinating sample requests with other institutions/physicians
+- Managed departmental data projects for minimal residual disease (MRD) analysis and poster presentations under [Dr. Langren](https://www.mskcc.org/cancer-care/doctors/c-landgren)
+
+
+### EDUCATION/MENTORING EXPERIENCE  
+
+[SwimJim Inc.](https://swimjim.com/)
+New York, NY
+Swim Instructor/Trainer	September 2016 - Present
+
+- Conduct water interviews and train new instructors on the SwimJim curriculum, levels, and expectations
+- Attend monthly trainer meetings to collect and provide feedback for 6 month and annual reviews as well as team meetings to create instruction cohesion
+- Assist in the instruction of swimming skills in a company that promotes health and safety, including the development of skills in children starting at 8 weeks
+- Constantly communicate with deck supervisor and head instructor about any potential concerns with clients or program
+
+
+[The Browning School](https://browning.edu/)	 
+New York, NY
+Learning Specialist Assistant (September 2016 - December 2016)
+
+- Assess academic needs of students and collaborate with program supervisor to provide additional help
+- Boost student grades in middle and high school math, chemistry, and biology
+- Schedule help sessions for students with special needs and assist in developing lesson plans for study skills class
+
+[Bowdoin College Residential Life Staff](https://www.bowdoin.edu/residential-life/index.html)	 
+Brunswick, ME
+Residential Assistant (August 2014 - May 2015)
+
+- Completed more than 50 hours of training on topics including conflict resolution, emergency response, school disciplinary proceedings, peer counseling, community building, and utilizing resources
+- Mediated student conflicts and served as a liaison between student body and professional staff
+- Engaged and encouraged discussions pertaining to gender, race, diversity, and other issues to help frame campus culture
+
+### PUBLICATIONS   
+
+1) Pianko, Matthew J., Sean M. Devlin, Eric R. Littmann, Aisara Chansakul, Donna Mastey, Meghan Salcedo, Emily Fontana et al. "Minimal residual disease negativity in multiple myeloma is associated with intestinal microbiota composition." Blood advances 3, no. 13 (2019): 2040-2044.                      						  
+
+2) Landgren, Ola, Malin Hultcrantz, Alexander M. Lesokhin, Aisara Chansakul et al. "Weekly Carfilzomib, Lenalidomide, Dexamethasone and Daratumumab (wKRd-D) Combination Therapy Provides Unprecedented MRD Negativity Rates in Newly Diagnosed Multiple Myeloma: A Clinical and Correlative Phase 2 Study." Blood, 134 (Supplement 1) (2019), p. 862.                     						  
+
+### SKILLS / CERTIFICATIONS  
+
+- Computer Skills: SAS, R (Fall 2020), Stata (Fall 2020), TreeAge, PIMs, CTMS, EPIC EMR, CRDB, iMedidata, Oracle, Tableau, Microsoft Office                     						  
+- Certifications: HIPAA, HSP, GCP, Dangerous Goods Shipping, CPR/AED                     						  
+- Volunteer: COVID-19 Student Service Corps (CSSC), New York-Presbyterian Queens Hospital (Pharmacy Department)                      						  
+- Languages: Fluent Thai and English                     						  
+
+### CONTACT INFORMATION
+
+JR Chansakul                        						 
+Pronouns: he/him/his                       						 
+Candidate for MPH                       						 
+Columbia University | Department of Epidemiology                       						 
+
+Email: [ac4635@cumc.columbia.edu](mailto:ac4635@cumc.columbia.edu) 
+
+
