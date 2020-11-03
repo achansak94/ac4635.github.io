@@ -1,0 +1,65 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+library(flexdashboard)
+```
+
+```{r}
+data("rest_inspec")
+
+Italian_rest=
+  rest_inspec %>%
+  filter(
+    grade %in% c("A", "B", "C"),
+    str_detect(cuisine_description, "Italian"),
+    boro != "0") %>% 
+  relocate(boro) %>% 
+  drop_na() %>% 
+  sample_n(10000) %>% 
+  view()
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+Italian_rest %>%
+  mutate(text_label = str_c("Score: ", score, "\nGrade: ", grade)) %>% 
+  plot_ly(
+    x = ~inspection_date, y = ~score, type = "scatter", mode = "markers",
+    color = ~boro, text = ~text_label, alpha = 0.8)
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+Italian_rest %>% 
+  plot_ly(y = ~score, color = ~boro, type = "box", colors = "viridis")
+
+```
+
+### Chart C
+
+```{r}
+Italian_rest %>% 
+  count(boro) %>% 
+   mutate(boro = fct_reorder(boro, n)) %>% 
+  plot_ly(x = ~boro, y = ~n, color = ~boro, type = "bar", colors = "viridis", showlegend = FALSE)
+```
+
