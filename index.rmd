@@ -2,11 +2,10 @@
 title: "P8105: Homework 4"
 ---
 
-# Welcome to my website for HW4!
 
 ### Problem 1
 
-Creatde a personal website that includes:
+Created a personal website that includes:
 
 * A brief introductory landing page
 * My Resume
