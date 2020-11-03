@@ -1,0 +1,65 @@
+---
+title: "Plotly"
+output:
+    html_document:
+        toc: true
+        toc_float: true
+---
+
+### Problem 2
+
+```{r setup}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r Italian_rest}
+data("rest_inspec")
+
+Italian_rest=
+  rest_inspec %>%
+  filter(
+    grade %in% c("A", "B", "C"),
+    str_detect(cuisine_description, "Italian"),
+    boro != "0") %>% 
+  relocate(boro) %>% 
+  drop_na() %>% 
+  sample_n(10000) %>% 
+  view()
+```
+
+
+## Scatterplot 
+## Italian restaurant score across inspection date in the 5 boroughs
+
+
+```{r}
+Italian_rest %>%
+  mutate(text_label = str_c("Score: ", score, "\nGrade: ", grade)) %>% 
+  plot_ly(
+    x = ~inspection_date, y = ~score, type = "scatter", mode = "markers",
+    color = ~boro, text = ~text_label, alpha = 0.8)
+
+```
+
+## Boxplot 
+## Distribution of health scores for Italian restaurants by boro 
+
+```{r}
+Italian_rest %>% 
+  plot_ly(y = ~score, color = ~boro, type = "box", colors = "viridis")
+```
+
+
+## Bar Chart 
+## Number of Italian restaurants inspected per boro
+
+
+```{r}
+Italian_rest %>% 
+  count(boro) %>% 
+   mutate(boro = fct_reorder(boro, n)) %>% 
+  plot_ly(x = ~boro, y = ~n, color = ~boro, type = "bar", colors = "viridis", showlegend = FALSE)
+```
+
