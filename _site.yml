@@ -10,7 +10,7 @@ navbar:
     - text: "Rest_Dashboard"
       href: Rest_Dashboard.html
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: mailto:<ac4635.cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/ac4635/
 output:
